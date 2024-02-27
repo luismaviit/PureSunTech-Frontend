@@ -20,6 +20,7 @@
     cursor: pointer;
     width: 100%;
     height: 2rem;
+    transition: border-radius 0.2s ease, box-shadow 0.2s ease;
   }
   .button-cleaner:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -40,9 +41,7 @@
     border-radius: 50%;
     width: 1.5rem;
     height: 1.5rem;
-  }
-  .span-sensor-normal:hover {
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: border-radius 0.2s ease, box-shadow 0.2s ease;
   }
   .span-sensor-selected {
     display: flex;
@@ -54,5 +53,9 @@
     border-radius: 50%;
     width: 1.5rem;
     height: 1.5rem;
+    transition: border-radius 0.2s ease, box-shadow 0.2s ease;
+  }
+  .span-sensor-normal:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   }
 }

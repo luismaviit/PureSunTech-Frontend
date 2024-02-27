@@ -1,11 +1,11 @@
 import React from 'react';
 import "./NextCleaning.Style.css"
 
-interface MiComponenteProps {
+interface NextCleaning {
   // Definir las propiedades del componente, si es necesario
 }
 
-const MiComponente: React.FC<MiComponenteProps> = () => {
+const NextCleaning: React.FC<NextCleaning> = () => {
 
 
   // Resto del código del componente
@@ -20,4 +20,4 @@ const MiComponente: React.FC<MiComponenteProps> = () => {
   );
 }
 
-export default MiComponente;
+export default NextCleaning;
