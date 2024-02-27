@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../../../../assets/pre-sun-tech-logo.png"
 import "./NavBar.Style.css"
 
 interface CleaningProgramme {
