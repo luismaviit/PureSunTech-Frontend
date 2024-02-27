@@ -1,0 +1,11 @@
+.wrapper{
+    padding: 1rem;
+
+    .tittle{
+        font-size: 1.3rem;
+    }
+    .timer{
+        font-size: 5rem;
+    }
+
+}
