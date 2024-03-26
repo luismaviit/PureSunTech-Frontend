@@ -9,7 +9,7 @@ interface Home {
 }
 const Home: React.FC<Home> = () => {
   return (
-    <div className="angry-grid">
+    <div className="wrapper-grid">
       <div id="item-0">
         <NavBar />
       </div>

@@ -1,4 +1,4 @@
-.angry-grid {
+.wrapper-grid {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -12,10 +12,10 @@
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 8;
-  border-radius: 0.5em;
+  border-radius: 8px;
+  padding-left: 10px;
  
 }
-
 
 
 #item-1 {
@@ -24,12 +24,13 @@
   grid-column-start: 1;
   grid-row-end: 4;
   grid-column-end: 3;
-  border-radius: 0.5em;
+  border-radius: 8px;
+  padding-left: 10px;
   transition: border-radius 0.2s ease, box-shadow 0.2s ease;
 }
 
 #item-1:hover {
-  border-radius: 0.5em;
+  border-radius: 8px;
   box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
 }
 
@@ -39,12 +40,13 @@
   grid-column-start: 1;
   grid-row-end: 6;
   grid-column-end: 3;
-  border-radius: 0.5em;
+  border-radius: 8px;
+  padding-left: 10px;
   transition: border-radius 0.2s ease, box-shadow 0.2s ease;
 }
 
 #item-2:hover {
-  border-radius: 0.5em;
+  border-radius: 8px;
   box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
 }
 
@@ -54,12 +56,13 @@
   grid-column-start: 3;
   grid-row-end: 6;
   grid-column-end: 5;
-  border-radius: 0.5em;
+  border-radius: 8px;
+  padding: 10px;
   transition: border-radius 0.2s ease, box-shadow 0.2s ease;
 }
 
 #item-3:hover {
-  border-radius: 0.5em;
+  border-radius: 8px;
   box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
 }
 
@@ -69,12 +72,12 @@
   grid-column-start: 5;
   grid-row-end: 6;
   grid-column-end: 8;
-  border-radius: 0.5em;
+  border-radius: 8px;
   transition: border-radius 0.2s ease, box-shadow 0.2s ease;
 }
 
 #item-4:hover {
-  border-radius: 0.5em;
+  border-radius: 8px;
   box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
 }
 
@@ -84,12 +87,12 @@
   grid-column-start: 1;
   grid-row-end: 12;
   grid-column-end: 4;
-  border-radius: 0.5em;
+  border-radius: 8px;
   transition: border-radius 0.2s ease, box-shadow 0.2s ease;
 }
 
 #item-5:hover {
-  border-radius: 0.5em;
+  border-radius: 8px;
   box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
 }
 
@@ -99,11 +102,11 @@
   grid-column-start: 4;
   grid-row-end: 12;
   grid-column-end: 8;
-  border-radius: 0.5em;
+  border-radius: 8px;
   transition: border-radius 0.2s ease, box-shadow 0.2s ease;
 }
 
 #item-6:hover {
-  border-radius: 0.5em;
+  border-radius: 8px;
   box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
 }
