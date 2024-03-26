@@ -1,8 +1,8 @@
 import React from "react";
-import "./Login.Style.css";
 import Logo from "../../../assets/pre-sun-tech-logo.png";
 import InputField from "../../../components/inputsFields/InputField";
 import SubmitButton from "../../../components/buttons/submitButtons/SubmitButton";
+import "./Login.style.css"
 interface Login {
   // Definir las propiedades del componente, si es necesario
 }
