@@ -1,13 +1,15 @@
 import React from "react";
 import "./SubmitButton.Style.css";
 
+
 interface SubmitButton {
-  // Definir las propiedades del componente, si es necesario
+  onClick: () => void;
 }
-const SubmitButton: React.FC<SubmitButton> = () => {
+const SubmitButton: React.FC<SubmitButton> = ({onClick}) => {
   return (
     <div className="wrapper-submit-button">
-      <button className="submit-button"> Iniciar sesión </button>
+      <button className="submit-button" onClick={onClick}> Iniciar sesión </button>
+    
     </div>
   );
 };
