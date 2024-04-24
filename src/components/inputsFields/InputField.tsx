@@ -47,7 +47,7 @@ const InputField: React.FC<InputFieldProps> = ({
         placeholder={placeholder}
         className="input-field"
       />
-      {type === "password" ? (
+      {type === "password" && (
         <span
           className="wrapper-button"
           onClick={() => setShowPassword(!showPassword)}
@@ -58,7 +58,7 @@ const InputField: React.FC<InputFieldProps> = ({
             <i className="bi bi-eye-slash"></i>
           )}
         </span>
-      ) : null}
+      ) }
     </div>
   );
 };
