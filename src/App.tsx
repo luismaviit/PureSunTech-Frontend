@@ -5,7 +5,6 @@ import { AuthProvider } from "./context/AuthProvider.tsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  const token = localStorage.getItem("token");
   return (
     <AuthProvider>
       <Router>
