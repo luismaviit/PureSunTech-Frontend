@@ -5,13 +5,14 @@
   justify-content: center;
   align-items: center;
   background-color:#F1F5FB;
+  background: linear-gradient(135deg, #000000 0%, #243980 50%, #5371FF 100%);
 
   .card-login {
     height: 400px;
     width: 500px;
     border-radius: 16px;
-    background-color: #d9d9d8b0;
-    box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
+    background-color: #fafafa;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
     padding: 2rem;
     display: flex;
     flex-direction: column;
