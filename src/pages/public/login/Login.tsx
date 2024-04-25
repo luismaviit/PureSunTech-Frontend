@@ -5,9 +5,11 @@ import SubmitButton from "../../../components/buttons/submitButtons/SubmitButton
 import { AuthContext } from "../../../context/AuthProvider";
 import { useNavigate } from "react-router-dom";
 import "./Login.style.css"
+interface Login {
+  // Definir las propiedades del componente, si es necesario
+}
 
-
-const Login = () => {
+const Login: React.FC<Login> = () => {
   const { input } = React.useContext(AuthContext);
   const navigate = useNavigate();
 

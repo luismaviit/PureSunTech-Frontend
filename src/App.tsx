@@ -1,9 +1,8 @@
 import "./App.css";
-import Home from "./pages/private/home/Home.jsx";
-import Login from "./pages/public/login/Login.jsx";
+import Home from "./pages/private/home/Home.tsx";
+import Login from "./pages/public/login/Login.tsx";
 import { AuthProvider } from "./context/AuthProvider.tsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ProtectedRoute from "./configs/ProtectedRoute.jsx";
 
 function App() {
   const token = localStorage.getItem("token");
@@ -11,14 +10,7 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
-          <Route
-            path="/"
-            element={
-              <ProtectedRoute>
-                <Login />
-              </ProtectedRoute>
-            }
-          />
+          <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
         </Routes>
       </Router>
