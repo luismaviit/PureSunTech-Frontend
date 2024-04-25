@@ -4,26 +4,29 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
   height: 95vh;
-  margin: 1.2rem;
+  padding: 1.23rem;
+  background: linear-gradient(135deg, #000000 0%, #243980 50%, #5371FF 100%);
+
 }
 
 #item-0 {
+  border-color: #363a45;
   grid-row-start: 1;
   grid-column-start: 1;
   grid-row-end: 2;
   grid-column-end: 8;
   border-radius: 8px;
   padding-left: 10px;
-  background-color: #d9d9d9;
+  background-color: rgba(255,255,255, 0.2);
   transition: border-radius 0.2s ease, box-shadow 0.2s ease;
 }
 #item-0:hover {
   border-radius: 8px;
-  box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
+  box-shadow: 0 0 15px 0 #5371FF;
 }
 
 #item-1 {
-  background-color: #d9d9d9;
+  background-color: rgba(255,255,255, 0.2);
   grid-row-start: 2;
   grid-column-start: 1;
   grid-row-end: 4;
@@ -35,11 +38,11 @@
 
 #item-1:hover {
   border-radius: 8px;
-  box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
+  box-shadow: 0 0 15px 0 #5371FF;
 }
 
 #item-2 {
-  background-color: #d9d9d9;
+  background-color: rgba(255,255,255, 0.2);
   grid-row-start: 4;
   grid-column-start: 1;
   grid-row-end: 6;
@@ -51,11 +54,11 @@
 
 #item-2:hover {
   border-radius: 8px;
-  box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
+  box-shadow: 0 0 15px 0 #5371FF;
 }
 
 #item-3 {
-  background-color: #d9d9d9;
+  background-color: rgba(255,255,255, 0.2);
   grid-row-start: 2;
   grid-column-start: 3;
   grid-row-end: 6;
@@ -67,11 +70,11 @@
 
 #item-3:hover {
   border-radius: 8px;
-  box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
+  box-shadow: 0 0 15px 0 #5371FF;
 }
 
 #item-4 {
-  background-color: #d9d9d9;
+  background-color: rgba(255,255,255, 0.2);
   grid-row-start: 2;
   grid-column-start: 5;
   grid-row-end: 6;
@@ -82,11 +85,11 @@
 
 #item-4:hover {
   border-radius: 8px;
-  box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
+  box-shadow: 0 0 15px 0 #5371FF;
 }
 
 #item-5 {
-  background-color: #d9d9d9;
+  background-color: rgba(255,255,255, 0.2);
   grid-row-start: 6;
   grid-column-start: 1;
   grid-row-end: 12;
@@ -97,11 +100,11 @@
 
 #item-5:hover {
   border-radius: 8px;
-  box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
+  box-shadow: 0 0 15px 0 #5371FF;
 }
 
 #item-6 {
-  background-color: #d9d9d9;
+  background-color: rgba(255,255,255, 0.2);
   grid-row-start: 6;
   grid-column-start: 4;
   grid-row-end: 12;
@@ -112,5 +115,5 @@
 
 #item-6:hover {
   border-radius: 8px;
-  box-shadow: 0 0 15px 0 rgba(81, 113, 255, 0.5);
+  box-shadow: 0 0 15px 0 #5371FF;
 }

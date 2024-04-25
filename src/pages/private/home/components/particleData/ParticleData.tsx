@@ -16,9 +16,9 @@ const ParticleData: React.FC<ParticleData> = () => {
         <span>Sensor dos --{`>`} 150ppm</span>{" "}
         <span>Sensor tres --{`>`} 150ppm</span>
       </div>
-      <hr />
+
       <span className="average">Promedio --{`>`} 150ppm</span>
-      <hr />
+
       <div className="action-buttons">
         <button className="button-cleaner">Ejecutar Limpieza</button>
         <div className="wrapper-sensors">
