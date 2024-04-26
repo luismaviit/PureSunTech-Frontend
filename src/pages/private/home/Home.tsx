@@ -2,6 +2,7 @@ import React from "react";
 import NextCleaning from "./components/nextCleaning/NextCleaning";
 import ParticleData from "./components/particleData/ParticleData";
 import NavBar from "./components/navBar/NavBar";
+import ChartPPM from "./components/chartPPM/ChartPPM";
 import "./Home.Style.css";
 
 interface Home {
@@ -20,7 +21,9 @@ const Home: React.FC<Home> = () => {
       <div id="item-3">
         <ParticleData />
       </div>
-      <div id="item-4">&nbsp;</div>
+      <div id="item-4">
+        <ChartPPM />
+      </div>
       <div id="item-5">&nbsp;</div>
       <div id="item-6">&nbsp;</div>
     </div>
