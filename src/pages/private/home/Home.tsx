@@ -3,6 +3,7 @@ import NextCleaning from "./components/nextCleaning/NextCleaning";
 import ParticleData from "./components/particleData/ParticleData";
 import NavBar from "./components/navBar/NavBar";
 import ChartPPM from "./components/chartPPM/ChartPPM";
+import Currentprogramming from "./components/currentProgramming/Currentprogramming";
 import "./Home.Style.css";
 
 interface Home {
@@ -17,7 +18,7 @@ const Home: React.FC<Home> = () => {
       <div id="item-1">
         <NextCleaning />
       </div>
-      <div id="item-2">&nbsp;</div>
+      <div id="item-2"><Currentprogramming/></div>
       <div id="item-3">
         <ParticleData />
       </div>
