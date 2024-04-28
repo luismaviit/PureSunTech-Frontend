@@ -37,7 +37,7 @@ const ChartPPM: React.FC<ChartPPM> = () => {
             },
             subtitle: {
               align: "left",
-              text: "" /* "Click the columns to view details. " */,
+              text: "" /* click the columns to view details */,
             },
             accessibility: {
               announceNewData: {

@@ -21,11 +21,11 @@ const ParticleData: React.FC<ParticleData> = () => {
 
       <div className="action-buttons">
         <button className="button-cleaner">Ejecutar Limpieza</button>
-        <div className="wrapper-sensors">
+       {/*  <div className="wrapper-sensors">
           <span className="span-sensor-selected">1</span>
           <span className="span-sensor-normal">2</span>
           <span className="span-sensor-normal">3</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

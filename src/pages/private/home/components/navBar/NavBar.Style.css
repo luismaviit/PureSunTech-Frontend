@@ -3,9 +3,27 @@
   height: 100%;
   display: flex;
   align-items: center;
- 
+  justify-content: space-between;
 
   .logo-navbar {
     height: 55px;
+  }
+  .logout-button {
+    color: #ffffff;
+    width: 400%px;
+    height: 2rem;
+    border-radius: 8px;
+    margin-left: 0.45rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(81, 113, 255, 1);
+    border: 1px solid rgba(81, 113, 255, 0.5);
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    margin-right: 25px;
+    z-index: 999999;
+  }
+  .logout-button:hover {
+    background-color: #243980;
+    box-shadow: 0 0 10px 0 #5371ff;
   }
 }

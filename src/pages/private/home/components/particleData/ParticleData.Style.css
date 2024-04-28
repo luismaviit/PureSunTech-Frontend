@@ -33,13 +33,13 @@
       border-radius: 8px;
       cursor: pointer;
       width: 100%;
-      height: 25px;
+      height: 30px;
       transition: background-color 0.2s ease, box-shadow 0.2s ease;
-      background-color: #5371FF
+      background-color: #5371ff;
     }
     .button-cleaner:hover {
       background-color: #243980;
-      box-shadow: 0 0 10px 0 #5371FF;
+      box-shadow: 0 0 10px 0 #5371ff;
     }
     .wrapper-sensors {
       display: flex;
@@ -58,13 +58,12 @@
       border-radius: 50%;
       width: 1.5rem;
       height: 1.5rem;
-      transition: border-radius 0.2s ease, box-shadow 0.2s ease, color 0.s ease;
-      
+      transition: border-radius 0.2s ease, box-shadow 0.2s ease, color 0s ease;
     }
     .span-sensor-normal:hover {
       color: #000000;
       background-color: #ffffff;
-      box-shadow: 0 0 10px 0 #5371FF;
+      box-shadow: 0 0 10px 0 #5371ff;
     }
     .span-sensor-selected {
       display: flex;
@@ -75,10 +74,8 @@
       border-radius: 50%;
       width: 1.5rem;
       height: 1.5rem;
-      box-shadow: 0 0 10px 0 #5371FF;
+      box-shadow: 0 0 10px 0 #5371ff;
       transition: border-radius 0.2s ease, box-shadow 0.2s ease, color 0.3s ease;
     }
-   
-    
   }
 }
