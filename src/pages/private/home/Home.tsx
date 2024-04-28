@@ -4,6 +4,7 @@ import ParticleData from "./components/particleData/ParticleData";
 import NavBar from "./components/navBar/NavBar";
 import ChartPPM from "./components/chartPPM/ChartPPM";
 import Currentprogramming from "./components/currentProgramming/Currentprogramming";
+import WaterConsumed from "./components/waterConsumed/WaterConsumed";
 import "./Home.Style.css";
 
 interface Home {
@@ -25,7 +26,7 @@ const Home: React.FC<Home> = () => {
       <div id="item-4">
         <ChartPPM />
       </div>
-      <div id="item-5">&nbsp;</div>
+      <div id="item-5"><WaterConsumed/></div>
       <div id="item-6">&nbsp;</div>
     </div>
   );
