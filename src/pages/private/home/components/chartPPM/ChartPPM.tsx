@@ -13,10 +13,10 @@ const ChartPPM: React.FC<ChartPPM> = () => {
   return (
     <div className="wrapper-chartppm">
       <div className="header">
-        <h1 className="tittle">PPM Ultimas 8 horas</h1>
+        <h1 className="tittle">Luxes en la ultima semana</h1>
         <span className="wrapper-chart-button">
-          <button className="button-chart">1 semana</button>
-          <button className="button-chart">8 horas</button>
+         {/*  <button className="button-chart">1 semana</button> */}
+{/*           <button className="button-chart">8 horas</button> */}
         </span>
       </div>
       <div className="wrapper-chart">

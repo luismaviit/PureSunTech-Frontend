@@ -1,0 +1,35 @@
+{
+  "next-cleanning": "",
+
+  "current-programming": "12",
+
+  "particle-data": {
+    "name":"Cuarto",
+    "sensors": [
+      {
+        "name": "sensor1",
+        "quantity": "1232"
+      },
+      {
+        "name": "sensor2",
+        "quantity": "1232"
+      }
+    ],
+    "promedy": "121",
+    "normal-value": true
+  },
+
+  "water-consumed": {
+    "accumulated-consumption": "19",
+    " last-consumptions": [
+      {
+        "quantity": "0.3",
+        "date": "2015-23-23"
+      },
+      {
+        "quantity": "0.8",
+        "date": "2018-23-23"
+      }
+    ]
+  }
+}

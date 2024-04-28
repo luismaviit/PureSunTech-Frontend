@@ -10,7 +10,7 @@ const ParticleData: React.FC<ParticleData> = () => {
 
   return (
     <div className="wrapper-particle-data">
-      <h1 className="tittle">Datos de particulas -- Panel cuarto</h1>
+      <h1 className="tittle">Datos de Luxes en el Panel cuarto</h1>
       <div className="wrapper-data-sensors ">
         <span>Sensor uno --{`>`} 150ppm</span>
         <span>Sensor dos --{`>`} 150ppm</span>{" "}
