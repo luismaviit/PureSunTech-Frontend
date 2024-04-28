@@ -15,15 +15,18 @@ const GptChat: React.FC<GptChat> = () => {
         </span>
       </header>
       <div className="wrapper-chat">d</div>
-     
+      <div className="wrapper-input-gpt">
         <input
           className="input-prompt-gpt"
           placeholder="Que deseas saber sobre los datos recolectados...."
         />
-        <button className="button-submit"> 
-        <i className="bi bi-send" style={{ fontSize: '24px', color: 'white' }}></i>
+        <button className="button-submit">
+          <i
+            className="bi bi-send"
+            style={{ fontSize: "24px", color: "white" }}
+          ></i>
         </button>
-      
+      </div>
     </div>
   );
 };

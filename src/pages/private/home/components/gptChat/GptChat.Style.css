@@ -27,13 +27,20 @@
     margin-top: -30px;
     width: 96%;
 
-    height: 65%;
+    height: 70%;
     padding: 10px;
+  }
+  .wrapper-input-gpt {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .input-prompt-gpt {
     width: 96%;
-    height: 7%;
+    height: 100%;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid #ffffff; /* Agrega un borde inferior */
@@ -43,12 +50,12 @@
     padding-left: 10px;
   }
   .button-submit {
+    position: fixed;
+    margin-left: 50%;
+    margin-bottom: 2%;
     border-radius: 8px;
     height: 40px;
     width: 40px;
-    position: fixed;
-    margin-top: 24%;
-    margin-left: 50%;
     background-color: transparent;
     border: none;
     cursor: pointer;
