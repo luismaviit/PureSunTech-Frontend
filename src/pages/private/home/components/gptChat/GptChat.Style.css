@@ -56,7 +56,7 @@
     border-radius: 8px;
     height: 40px;
     width: 40px;
-    background-color: transparent;
+    background-color: #5371ff;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -64,7 +64,7 @@
   .button-submit:hover {
     border: none;
     border-radius: 8px;
-    background-color: #5371ff;
+    background-color: #243980;;
   }
 
   ::placeholder {

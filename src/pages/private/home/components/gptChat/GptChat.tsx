@@ -14,7 +14,7 @@ const GptChat: React.FC<GptChat> = () => {
           <LogoGPT /> <h1 className="tittle-gpt-chat">OpenAI</h1>
         </span>
       </header>
-      <div className="wrapper-chat">d</div>
+      <div className="wrapper-chat"></div>
       <div className="wrapper-input-gpt">
         <input
           className="input-prompt-gpt"
