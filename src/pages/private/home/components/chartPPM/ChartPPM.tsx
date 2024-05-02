@@ -69,12 +69,12 @@ const ChartPPM: React.FC<ChartPPM> = () => {
               headerFormat:
                 '<span style="font-size:12px">{series.name}</span><br>',
               pointFormat:
-                '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}</b> kWh<br/>',
+                '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}</b> Luxes<br/>',
             },
 
             series: [
               {
-                name: "Horas",
+                name: "Día",
                 colorByPoint: true,
                 data: [
                   {
@@ -91,31 +91,31 @@ const ChartPPM: React.FC<ChartPPM> = () => {
                   },
                   {
                     name: "W",
-                    y: 4.18,
+                    y: 18.3,
                     color:"#243980",
                     drilldown: "Firefox",
                   },
                   {
                     name: "J",
-                    y: 4.12,
+                    y: 13.7,
                     color:"#243980",
                     drilldown: "Edge",
                   },
                   {
                     name: "V",
-                    y: 2.33,
+                    y: null,
                     color:"#243980",
                     drilldown: "Opera",
                   },
                   {
                     name: "S",
-                    y: 3,
+                    y: null,
                     color:"#243980",
                     drilldown: "Internet Explorer",
                   },
                   {
                     name: "D",
-                    y: 1.582,
+                    y: null,
                     color:"#243980",
                     drilldown: null,
                   },

@@ -10,14 +10,14 @@ const ParticleData: React.FC<ParticleData> = () => {
 
   return (
     <div className="wrapper-particle-data">
-      <h1 className="tittle">Datos de Luxes en el Panel cuarto</h1>
+      <h1 className="tittle">Datos de Luxes en Lavanderia</h1>
       <div className="wrapper-data-sensors ">
-        <span>Sensor uno --{`>`} 150ppm</span>
-        <span>Sensor dos --{`>`} 150ppm</span>{" "}
-        <span>Sensor tres --{`>`} 150ppm</span>
+        <span>Sensor uno --{`>`} 897 Luxes</span>
+        <span>Sensor dos --{`>`} 745 Luxes</span>{" "}
+        <span>Sensor tres --{`>`} 620 Luxes</span>
       </div>
       <hr className="divisor"/>
-      <span className="average">Promedio --{`>`} 150ppm</span>
+      <span className="average">Promedio --{`>`} 754 Luxes</span>
 
       <div className="action-buttons">
         <hr className="divisor"/>
